@@ -1,6 +1,6 @@
 package MetodosAtributos;
 
-public class Produto {
+public class Produto45 {
 
     String nome;
     double preco;

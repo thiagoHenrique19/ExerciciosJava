@@ -17,8 +17,6 @@ public class ExercicioVet2 {
 
         double[] vetor = new double[n];
 
-
-
        for (int i=0; i<n; i++){
            System.out.print("Digite um numero: ");
            vetor[i] = scanner.nextInt();
@@ -37,7 +35,5 @@ public class ExercicioVet2 {
 
         System.out.printf("\nSOMA = %.2f\n", soma);
         System.out.printf("MEDIA = %.2f\n", media);
-
-
     }
 }

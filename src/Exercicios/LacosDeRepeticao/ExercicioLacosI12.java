@@ -1,10 +1,12 @@
-package LacosDeRepeticao;
+package Exercicios.LacosDeRepeticao;
 
 import java.util.Scanner;
 
 public class ExercicioLacosI12 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+
         System.out.println("Me informe um numero entre 1 e 20: ");
         int numero = scanner.nextInt();
         if (numero >= 1 && numero <= 20) {

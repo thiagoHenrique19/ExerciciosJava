@@ -10,8 +10,9 @@ public class ExercicioVet3 {
         Scanner sc = new Scanner(System.in);
 
         int n;
-        double soma;
+        double soma ;
         double media;
+
 
         System.out.print("Quantos numeros voce vai digitar? ");
         n = sc.nextInt();
@@ -36,17 +37,5 @@ public class ExercicioVet3 {
         }
         System.out.printf("\nSOMA = %.2f\n", soma);
         System.out.printf("MEDIA = %.2f\n", media);
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

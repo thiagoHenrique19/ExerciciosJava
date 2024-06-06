@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class ExercicioVet1 {
     public static void main(String[] args) {
 
-        Locale.setDefault(Locale.US);
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Quantos numeros voce vai digitar?");
@@ -18,13 +17,12 @@ public class ExercicioVet1 {
             System.out.println("Digite um numero: ");
             vetor[i] = scanner.nextInt();
         }
-        System.out.println("NUMEROS NEGATIVOS: ");
+        System.out.println("Numeros negativos: ");
 
         for (int i = 0; i < n; i++) {
             if (vetor[i] < 0) {
                 System.out.printf("%d\n", vetor[i]);
             }
         }
-
     }
 }

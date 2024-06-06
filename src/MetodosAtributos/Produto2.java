@@ -1,2 +1,7 @@
-package MetodosAtributos;public class Produto2 {
-}
+package MetodosAtributos;
+
+import classeObjetoTeste.Produto;
+
+public class Produto2 {
+
+    }

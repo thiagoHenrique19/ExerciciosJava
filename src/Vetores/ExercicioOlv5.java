@@ -27,27 +27,5 @@ public class ExercicioOlv5 {
         }else{
             System.out.println("A fruta não esta na lista");
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

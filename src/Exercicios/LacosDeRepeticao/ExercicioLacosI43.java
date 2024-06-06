@@ -1,2 +1,4 @@
-package Exercicios.LacosDeRepeticao;public class ExercicioLacosI43 {
+package Exercicios.LacosDeRepeticao;
+
+public class ExercicioLacosI43 {
 }

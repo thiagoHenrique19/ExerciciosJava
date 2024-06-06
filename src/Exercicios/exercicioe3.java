@@ -1,4 +1,4 @@
-package br.com.hello;
+package Exercicios;
 
 public class exercicioe3 {
     public static void main(String[] args) {

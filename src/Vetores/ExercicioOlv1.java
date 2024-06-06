@@ -21,6 +21,5 @@ public class ExercicioOlv1 {
         for (String nome : nomes) {
             System.out.println(nome);
         }
-
     }
 }

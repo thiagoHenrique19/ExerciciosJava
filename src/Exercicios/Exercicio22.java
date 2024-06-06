@@ -1,4 +1,4 @@
-package br.com.hello;
+package Exercicios;
 
 import java.sql.SQLOutput;
 import java.util.Scanner;

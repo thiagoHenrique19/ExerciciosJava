@@ -1,4 +1,4 @@
-package br.com.hello;
+package testes;
 
 import java.io.PrintStream;
 import java.util.Scanner;

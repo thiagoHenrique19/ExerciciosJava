@@ -1,4 +1,4 @@
-package ExercicioIF;
+package Exercicios.ExercicioIF;
 
 import java.sql.SQLOutput;
 import java.util.Scanner;

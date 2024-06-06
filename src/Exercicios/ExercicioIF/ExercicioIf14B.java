@@ -1,4 +1,4 @@
-package ExercicioIF;
+package Exercicios.ExercicioIF;
 
 import org.w3c.dom.ls.LSOutput;
 

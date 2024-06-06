@@ -1,4 +1,6 @@
-package classeObjetoTeste;
+package MetodosAtributos;
+
+import MetodosAtributos.ExercicioCaneta;
 
 public class ExercicioCaneta1 {
     public static void main(String[] args) {

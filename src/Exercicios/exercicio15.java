@@ -1,4 +1,4 @@
-package br.com.hello;
+package Exercicios;
 
 import java.security.spec.RSAOtherPrimeInfo;
 import java.util.Scanner;

@@ -1,6 +1,4 @@
-package LacosDeRepeticao;
-
-import org.w3c.dom.ls.LSOutput;
+package Exercicios.LacosDeRepeticao;
 
 import java.util.Scanner;
 

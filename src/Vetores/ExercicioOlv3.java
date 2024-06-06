@@ -25,23 +25,5 @@ public class ExercicioOlv3 {
         double media = soma / notas.length;
 
         System.out.println("A media da turma é: " + media);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

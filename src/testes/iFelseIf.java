@@ -1,4 +1,4 @@
-package br.com.hello;
+package testes;
 
 import java.util.Scanner;
 

@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class ExercicioLacosI15 {
+public class ExercicioLacosI115 {
+    public static void main(String[] args) {
+        Scanner
+    }
 }

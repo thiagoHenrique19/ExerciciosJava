@@ -1,4 +1,4 @@
-package classeObjetoTeste;
+package MetodosAtributos;
 
 public class ExercicioCaneta {
     String modelo;

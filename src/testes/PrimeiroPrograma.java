@@ -1,4 +1,4 @@
-package br.com.hello;
+package testes;
 
 public class PrimeiroPrograma {
     public static void main(String[] args) {

@@ -1,4 +1,6 @@
-package classeObjetoTeste;
+package MetodosAtributos;
+
+import MetodosAtributos.Carro;
 
 public class carroTeste {
     public static void main(String[] args) {

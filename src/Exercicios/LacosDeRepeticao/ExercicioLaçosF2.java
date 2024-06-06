@@ -1,4 +1,4 @@
-package LacosDeRepeticao;
+package Exercicios.LacosDeRepeticao;
 
 import java.util.Scanner;
 

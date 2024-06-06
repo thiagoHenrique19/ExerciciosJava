@@ -1,15 +1,13 @@
 package ExerciciosFixação;
 
-import javax.security.auth.login.AccountException;
-
-public class ExerFixação {
+public class Account {
 
     private int number;
     private String holder;
     private double balance;
 
-    public Account(int number, String holder){
-        this.number = number;
+    public Account(double number, String holder, double initialDeposit){
+        this.number = (int) number;
         this.holder = holder;
     }
     public Account(int number, String holder, double initiaDeposit){
@@ -17,6 +15,13 @@ public class ExerFixação {
         this.holder = holder;
         deposit(initiaDeposit);
     }
+
+    public Account(double number, String holder) {
+    }
+
+    public Account(double number, double holder, double initialDeposit) {
+    }
+
     public int getNumber(){
         return number;
     }
@@ -35,6 +40,12 @@ public class ExerFixação {
     public void withdraw(double amount){
         balance -= amount + 5.0;
     }
-
-
+    public String toString(){
+        return "Account"
+               + number
+               +", Holder: "
+               + holder
+               +", Balance : $"
+               + String.format("%.2f",balance);
+    }
 }

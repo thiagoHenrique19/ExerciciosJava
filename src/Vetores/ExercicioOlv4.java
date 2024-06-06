@@ -29,20 +29,9 @@ public class ExercicioOlv4 {
         for(int i = 0; i < 10; i++){
             if(notas[i] >= MeidaTurma){
                 System.out.println(nome[i]);
+
+
             }
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }

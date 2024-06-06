@@ -1,4 +1,4 @@
-package ExercicioIF;
+package Exercicios.ExercicioIF;
 
 public class ExercicioIf12B {
     public static void main(String[] args) {

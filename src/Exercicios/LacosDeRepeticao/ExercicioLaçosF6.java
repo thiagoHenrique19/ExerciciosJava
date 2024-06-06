@@ -1,6 +1,5 @@
-package LacosDeRepeticao;
+package Exercicios.LacosDeRepeticao;
 
-import java.security.spec.RSAOtherPrimeInfo;
 import java.util.Scanner;
 
 public class ExercicioLaçosF6 {

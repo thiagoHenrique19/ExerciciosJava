@@ -1,4 +1,4 @@
-package ExercicioIF;
+package Exercicios.ExercicioIF;
 
 import java.util.Scanner;
 
@@ -11,9 +11,6 @@ public class ExercicioIf7B {
         int numero2;
         int numero3;
         int maiorNumero = 0;
-
-
-
 
 
         //solicite um numero ao usuario
