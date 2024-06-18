@@ -15,9 +15,9 @@ public class exercicio10 {
         System.out.println("Me diga mais um numero: ");
         numero2 = scanner.nextDouble();
 
-        double subtração = numero2 - numero1;
+        double subtracao = numero2 - numero1;
 
-        System.out.println("A subtração do " + numero2 + " Com " + numero1 + " é igual a " + subtração);
+        System.out.println("A subtração do " + numero2 + " Com " + numero1 + " é igual a " + subtracao);
 
     }
 }

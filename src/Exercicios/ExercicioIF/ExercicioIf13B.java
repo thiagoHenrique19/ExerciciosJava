@@ -21,9 +21,9 @@ public class ExercicioIf13B {
         //defina duas variaveis para os numeros indicados
         //faça a multiplicação dos dois numeros
         //defina uma variavel para este calculo
-        double multiplicação = numero1 + numero2;
+        double multiplicacao = numero1 + numero2;
         //agora veja se o resualtado é maior ou igual a 1000
-        if(multiplicação >= 1000){
+        if(multiplicacao >= 1000){
             System.out.println("O valor final é maior que 1000");
         }else{
             System.out.println("O valor final é abaixo de 1000");

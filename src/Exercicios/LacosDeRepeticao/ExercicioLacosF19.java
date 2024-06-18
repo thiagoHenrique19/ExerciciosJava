@@ -2,7 +2,7 @@ package Exercicios.LacosDeRepeticao;
 
 import java.util.Scanner;
 
-public class ExercicioLaçosF19 {
+public class ExercicioLacosF19 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

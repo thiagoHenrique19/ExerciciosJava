@@ -11,8 +11,8 @@ public class exercicio9 {
         System.out.println("Me diga um numero: ");
          numero1 = scanner.nextDouble();//vai esperar ate eu digitar um numero
 
-         double multiplicação = numero1 * 3;//onda faz a multiplicação
-        System.out.println(numero1 + " x 3 é: " + multiplicação);
+         double multiplicacao = numero1 * 3;//onda faz a multiplicação
+        System.out.println(numero1 + " x 3 é: " + multiplicacao);
 
 
     }

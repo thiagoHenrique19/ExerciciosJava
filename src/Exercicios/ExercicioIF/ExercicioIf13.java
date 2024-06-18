@@ -15,9 +15,9 @@ public class ExercicioIf13 {
         System.out.println("Me diga mais um numero. ");
         numero2 = scanner.nextDouble();
 
-        double multiplicação = numero1 + numero2;
+        double multiplicacao = numero1 + numero2;
 
-        if(multiplicação >= 1000) {
+        if(multiplicacao >= 1000) {
             System.out.println("Seu numero é maior que 1000. ");
         }else{
             System.out.println("Seu numero é menor que 1000. ");

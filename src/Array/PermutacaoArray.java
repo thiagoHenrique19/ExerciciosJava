@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class PermutaçaoArray {
+public class PermutacaoArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

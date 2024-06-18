@@ -13,7 +13,7 @@ AtendeCliente(Socket cli) {
 }
 @Override
     public void run(){
-    System.out.println("Cliente conectado com thread (" = this.getId() + ") : " + cliente.getInetAddress());
+    System.out.println("Cliente conectado com thread (" + this.getId() + ") : " + cliente.getInetAddress());
     InputStreamReader fluxoDados;
     try {
         fluxoDados = new InputStreamReader(cliente.getInputStream());
@@ -21,7 +21,7 @@ AtendeCliente(Socket cli) {
         BufferedReader dado = new BufferedReader(fluxoDados);
         System.out.println(dado.readLine());
 
-        Thread.sleep(15000);
+       Thread.sleep(15000);
 
         System.out.println("Cliente Finalizado: " + cliente.getInetAddress());
 

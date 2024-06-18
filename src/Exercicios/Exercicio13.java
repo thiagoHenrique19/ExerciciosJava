@@ -19,9 +19,9 @@ public class Exercicio13 {
         System.out.println("Me diga o valor da terceira nota: ");
         nota3 = scanner.nextDouble();
 
-        double multiplicação = nota1 * nota2 * nota3;
+        double multiplicacao = nota1 * nota2 * nota3;
 
-        System.out.println("O valor da media final: "+ multiplicação);
+        System.out.println("O valor da media final: "+ multiplicacao);
 
     }
 }

@@ -1,4 +1,4 @@
-package ExerciciosFixação;
+package ExerciciosFixacao;
 
 public class Account {
 

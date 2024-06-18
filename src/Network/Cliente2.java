@@ -12,7 +12,7 @@ public class Cliente2 {
 
             System.out.println("Cliente iniciando");
 
-            //Fluxos de dados para envio
+            //Fluxos de dados para saida
             PrintStream ps = new PrintStream(cliente.getOutputStream());
 
             ps.println("Oi, Prof. Miltin aqui: " + (int) (Math.random() * 10000));
