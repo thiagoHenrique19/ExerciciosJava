@@ -1,6 +1,6 @@
 package MetodosEstaticos;
 
-import testes.Scanner;
+import java.util.Scanner;
 
 import java.util.Locale;
 

@@ -1,9 +1,6 @@
-package ExerciciosHerança;
-
-import ExerciciosHerança.PolReg;
+package ExerciciosHeranca;
 
 import java.util.Scanner;
-
 public class Main{
     //classe principal para interagir com o usuario
     public static void main(String[] args) {
@@ -16,6 +13,8 @@ public class Main{
         int escolha = sc.nextInt();
 
         PolReg poligono = null;
+        PolReg triangulo = null;
+        PolReg quadrado = null;
 
         if (escolha == 1){
             System.out.println("Numero de lados: ");
@@ -23,15 +22,19 @@ public class Main{
             System.out.println("tamanho dos lados");
             double tamanhoLados = sc.nextDouble();
             poligono = new PolReg(numeroLados, tamanhoLados);
+            poligono.exibirInformacoes();
         } else if (escolha == 2) {
             System.out.println("tamanho dos lados: ");
             double tamanhoLado = sc.nextDouble();
-        }else{
+            triangulo.calcularArea();
+        } else if (escolha == 3) {
+            System.out.println("tamanho dos lados");
+            double lados = sc.nextDouble();
+            quadrado.calcularArea();
+        } else{
             System.out.println("Opcao invalida.");
             sc.close();
             return;
         }
-        poligono.exibirInformacoes();
-        sc.close();
     }
 }

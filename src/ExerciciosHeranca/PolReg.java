@@ -1,4 +1,4 @@
-package ExerciciosHerança;
+package ExerciciosHeranca;
 
 public class PolReg {
     //protected torna o membor acessivel as classes do mesmo

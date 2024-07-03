@@ -1,4 +1,4 @@
-package ExerciciosHerança;
+package ExerciciosHeranca;
 
 class TrianguloEq extends PolReg{
     //classe para o triangulo equilatero
