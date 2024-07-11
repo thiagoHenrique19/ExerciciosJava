@@ -9,7 +9,7 @@ public class Exercicio25 {
         double raio;
 
 
-        System.out.println("Qual o raio de um circulo?  " );
+        System.out.println("Qual o raio de um Circulo?  " );
         raio = scanner.nextDouble();
 
         double circunferencia = 2 * 3.14 * raio;
