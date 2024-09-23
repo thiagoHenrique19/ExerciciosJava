@@ -1,0 +1,9 @@
+package Thread;
+
+public class ExThread {
+    public static void main(String[] args) throws InterruptedException {
+        System.out.println("main.java.Thread MAIN");
+
+        Thread.sleep(5000);
+    }
+}

@@ -1,0 +1,40 @@
+package main.java.ExerciciosString;
+
+import java.util.Scanner;
+
+public class ExeString {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Informe uma palavra: ");
+             String mensagem = sc.nextLine();
+        System.out.println("Me informe o valor de K: ");
+             int K = sc.nextInt();
+
+             String mensagemCriptografada = criptografarCesar(mensagem, K);
+
+        System.out.println("A mensagem criptografada é " + mensagemCriptografada);
+    }
+ }
+    public static String criptografarCesar(String mensagem, int K) {
+        StringBuilder mensagemCriptografada = new StringBuilder();
+        K = K % 27;
+
+        for (char c : mensagem.toCharArray()) {
+            if (c == ' ') {
+                mensagemCriptografada.append((char) ('a' + K % 27));
+            } else {
+                char base = Character.isLowerCase(c) ? 'a' : 'A';
+                int limite = Character.isLowerCase(c) ? 'z' : 'Z';
+                int novoCaractere = c + K;
+
+                if (novoCaractere > limite){
+                    novoCaractere = base +
+                            (novoCaractere - limite - 1);
+                }
+                mensagemCriptografada.append((char)novoCaractere);
+            }
+        }
+        mensagemCriptografada.toString();
+        return mensagem;
+    }
